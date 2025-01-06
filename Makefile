@@ -5,7 +5,7 @@ CFLAGS      = -Wall -Wextra -Werror -g
 MLX_PATH    = minilibx-linux
 MLX         = $(MLX_PATH)/libmlx.a
 MLX_FLAGS   = -L$(MLX_PATH) -lmlx -lXext -lX11 -lm
-SRCS        = src/main.c src/map.c src/game.c src/graphics.c src/map_utils.c src/validation.c
+SRCS        = src/main.c src/map.c src/game.c src/graphics.c src/map_utils.c src/validation.c src/validation_utils.c
 OBJS        = $(SRCS:.c=.o)
 LIBFT_PATH  = libft
 LIBFT       = $(LIBFT_PATH)/libft.a
