@@ -6,7 +6,7 @@
 /*   By: krenken <krenken@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/05 15:00:04 by krenken           #+#    #+#             */
-/*   Updated: 2025/01/05 15:04:32 by krenken          ###   ########.fr       */
+/*   Updated: 2025/01/06 14:51:53 by krenken          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,7 @@ int		validate_paths(t_game *game);
 int		validate_walls(t_game *game);
 int		has_valid_characters(t_game *game);
 void	free_map(char **map);
+char	**copy_map(char **map, int height);
 
 // Rendering
 void	render_map(t_game *game);
